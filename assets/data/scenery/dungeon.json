@@ -1,0 +1,25 @@
+[
+{
+	"id": "cagePet_owl",
+	"image": "scenery/cagePet_owl.png",
+	"tags": [],
+	"lengthRange": [ 0.3, 1.25 ],
+	"aspectRatio": 1.1896552,
+	"stretchAspectRatio": "[0.9,1.1]",
+	"submerge": "0",
+	"scale": "1",
+	"thickness": "0.025",
+	"r": "[0.9,1.05]",
+	"g": "[0.9,1.05]",
+	"b": "[0.9,1.05]",
+	"aspects": [
+		"rewardRegion|reward_petRescue|petOwl",
+		"nonInteractiveShowTooltip",
+		"extraReward",
+		"extraAspectTooltip|themePiece_petOwl_owl"
+	],
+	"states": [
+		{ "name": "empty", "image": "scenery/cagePet_empty.png" }
+	]
+}
+]
