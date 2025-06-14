@@ -1,0 +1,23 @@
+{
+"modId": "netherowl_reward",
+"modInjections": [
+	{
+		"jsonPath": "extraRewardTemplates/boss_final/[1]/rewards",
+		"type": "objectList",
+		"addJson": {
+			"class": "com.worldwalkergames.legacy.game.campaign.model.mission.MapDetail_Reward$Reward",
+			"sceneryId": "cagePet_owl",
+			"revealAtStart": true
+		}
+	},
+	{
+		"jsonPath": "extraRewardTemplates/standard/[1]/rewards",
+		"type": "objectList",
+		"addJson": {
+			"class": "com.worldwalkergames.legacy.game.campaign.model.mission.MapDetail_Reward$Reward",
+			"sceneryId": "cagePet_owl",
+			"revealAtStart": true
+		}
+	}
+]
+}
