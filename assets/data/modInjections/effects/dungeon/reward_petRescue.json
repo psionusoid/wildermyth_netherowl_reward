@@ -5,7 +5,16 @@
 		"jsonPath": "outcomes/[5]/weightedOutcomes",
 		"type": "objectList",
 		"addJson": {
-			"class": "com.worldwalkergames.legacy.game.model.effect.Outcome$WeightedOutcome"
+			"class": "com.worldwalkergames.legacy.game.model.effect.Outcome$WeightedOutcome",
+			"weightExp": {
+				"class": "com.worldwalkergames.expressions.functions.IsMatchTextExpression",
+				"parameters": [ "_THEME_", "petOwl" ]
+			},
+			"outcome": {
+				"class": "Animate",
+				"target": "hero",
+				"audio": "Characters/Heroes/drauvenBirdMarkPrey"
+			}
 		}
 	}
 ]
