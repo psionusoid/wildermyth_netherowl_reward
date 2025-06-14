@@ -1,0 +1,12 @@
+{
+"modId": "netherowl_reward",
+"modInjections": [
+	{
+		"jsonPath": "outcomes/[5]/weightedOutcomes",
+		"type": "objectList",
+		"addJson": {
+			"class": "com.worldwalkergames.legacy.game.model.effect.Outcome$WeightedOutcome"
+		}
+	}
+]
+}
